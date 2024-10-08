@@ -21,6 +21,3 @@ abstract contract BeforeAfter is Setup {
         _after.counter_number = counter.number();
     }
 }
-
-
-
