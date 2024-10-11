@@ -13,9 +13,6 @@ abstract contract BeforeAfter is Setup {
     Vars internal _before;
     Vars internal _after;
 
-
-
-
     function __before() internal {
         _before.counter_number = counter.number();
     }
