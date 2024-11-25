@@ -17,6 +17,8 @@ abstract contract BeforeAfter is Setup {
         _before.counter_number = counter.number();
     }
 
+
+
     function __after() internal {
         _after.counter_number = counter.number();
     }
