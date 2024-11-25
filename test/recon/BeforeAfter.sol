@@ -10,8 +10,6 @@ abstract contract BeforeAfter is Setup {
         uint64 counter_number;
     }
 
-
-
     Vars internal _before;
     Vars internal _after;
 
